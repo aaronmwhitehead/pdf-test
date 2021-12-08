@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- <html>
+  <head>
+    <title>Driver's Manual 2021</title>
+    <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <iframe src="dm.pdf"></iframe>
+  </body>
+</html> -->
+
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.7/pdfobject.js" integrity="sha512-OLQpZw84GU2xP8iOTgvV1m1MeGvp8hRVqNKl8WyFdjlPeXxgXXnrqSEb7V+mxKhLge9LehdH+0BGt879MfQzYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <script>
+    PDFObject.embed("./test.pdf");
+    </script>
+</body>
+</html>
